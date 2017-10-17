@@ -26,12 +26,12 @@
     },
     "autoload": {
         "psr-4": {
-            "emanuellimeira\\User\\": "src"
+            "Elc\\User\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "emanuellimeira\\User\\": "tests"
+            "Elc\\User\\": "tests"
         }
     },
     "scripts": {
