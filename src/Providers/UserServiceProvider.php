@@ -1,6 +1,6 @@
 <?php
 
-namespace emanuellimeira\User;
+namespace Elc\User;
 
 use Illuminate\Support\ServiceProvider;
 
