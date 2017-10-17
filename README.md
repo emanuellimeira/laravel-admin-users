@@ -27,11 +27,22 @@ vendor/
 
 ## Install
 
-Via Composer
+1) Via Composer
 
 ``` bash
 $ composer require emanuellimeria/laravel-admin-user
 ```
+
+2) Add the service provider to your config/app.php file:
+```php
+Elc\User\UserServiceProvider::class,
+```
+3) Publish the config file & run the migrations
+```bash
+$ php artisan vendor:publish --provider="Elc\User\UserServiceProvider" #publish config files and migrations
+$ php artisan migrate #create the role and permission tables
+```
+
 
 ## Usage
 
